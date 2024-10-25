@@ -12,7 +12,7 @@ export function EmergencySOS() {
 
   const handleEmergency = () => {
     setIsEmergencyActive(true);
-    // In a real application, this would trigger emergency protocols
+    
   };
 
   return (
