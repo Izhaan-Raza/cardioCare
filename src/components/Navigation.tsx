@@ -36,7 +36,7 @@ export function Navigation({ currentPage, onPageChange }: NavigationProps) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <span className="text-xl font-bold text-gray-900">HealthCare</span>
+            <span className="text-xl font-bold text-gray-900">CardioCare</span>
           </div>
           <div className="flex space-x-4">
             <NavItem

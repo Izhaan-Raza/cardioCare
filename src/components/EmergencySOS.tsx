@@ -5,9 +5,9 @@ export function EmergencySOS() {
   const [isEmergencyActive, setIsEmergencyActive] = useState(false);
 
   const emergencyContacts = [
-    { name: 'Emergency Services', number: '911' },
-    { name: 'Primary Doctor', number: '(555) 123-4567' },
-    { name: 'Emergency Contact 1', number: '(555) 987-6543' },
+    { name: 'Emergency Services', number: '102' },
+    { name: 'Primary Doctor', number: '9905158193' },
+    { name: 'Emergency Contact 1', number: 'xxxxyyyyzz' },
   ];
 
   const handleEmergency = () => {
@@ -89,8 +89,8 @@ export function EmergencySOS() {
             </div>
             <div className="bg-gray-100 rounded-lg p-4">
               <p className="text-gray-600 text-sm">Location services active</p>
-              <p className="font-medium">123 Healthcare Ave</p>
-              <p className="text-gray-500">New York, NY 10001</p>
+              <p className="font-medium">VIT AP, Amravati</p>
+              <p className="text-gray-500">Vijaywada, IN 500084</p>
             </div>
           </div>
         </div>

@@ -61,7 +61,7 @@ function App() {
               >
                 <div className="mb-4">
                   <div className="flex items-baseline">
-                    <span className="text-4xl font-bold text-gray-900">8.2</span>
+                    <span className="text-4xl font-bold text-gray-900">3</span>
                     <span className="ml-2 text-gray-500">hours</span>
                   </div>
                   <p className="text-sm text-gray-500">Last night's sleep</p>
@@ -78,7 +78,11 @@ function App() {
       {currentPage === 'ai' && (
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <h1 className="text-3xl font-bold text-gray-900">AI Help</h1>
-          {/* AI Help content will go here */}
+          {
+            <iframe src='https://izhaan-raza.github.io/chatBot/' width="100%" height="600px">
+
+            </iframe>
+          }
         </div>
       )}
     </div>

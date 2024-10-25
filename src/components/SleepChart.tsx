@@ -2,7 +2,7 @@ import React from 'react';
 import { BarChart, Bar, XAxis, YAxis, ResponsiveContainer, Tooltip } from 'recharts';
 
 const sleepData = [
-  { day: 'Mon', deep: 2.5, light: 4.5, rem: 1.5 },
+  { day: 'Mon', deep: 0.5, light: 4.5, rem: 1.5 },
   { day: 'Tue', deep: 2.8, light: 4.2, rem: 1.8 },
   { day: 'Wed', deep: 2.2, light: 4.8, rem: 1.4 },
   { day: 'Thu', deep: 2.6, light: 4.3, rem: 1.6 },
