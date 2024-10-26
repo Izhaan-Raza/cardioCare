@@ -51,12 +51,12 @@ export function Navigation({ currentPage, onPageChange }: NavigationProps) {
               isActive={currentPage === 'sos'}
               onClick={() => onPageChange('sos')}
             />
-            {/* <NavItem
+            <NavItem
               icon={<Brain className="w-5 h-5" />}
               text="AI Help"
               isActive={currentPage === 'ai'}
               onClick={() => onPageChange('ai')}
-            /> */}
+            />
           </div>
         </div>
       </div>
